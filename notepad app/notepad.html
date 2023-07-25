@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!--CSS file-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css" >
+        <!--Angular js-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <!--Javascript file-->
+        <script src="./javascript/app.js"></script>
+</head>
+<body  ng-controller="myNoteAppController">
+<div class="container">
+    <h1 class="heading">Notepad App</h1>
+    <textarea  ng-model="message" cols="80" rows="20"></textarea>
+
+    <div class="buttons">
+        <button id="btn-save" ng-click="save()">Save</button>
+        <button id="btn-clear" ng-click="clear()">Clear</button>
+    </div>
+
+</div>
+</body>
+</html>

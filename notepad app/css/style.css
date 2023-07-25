@@ -1,0 +1,39 @@
+
+.container{
+    margin: 0px 200px;
+}
+
+
+.container textarea{
+    color: black;
+    background: gray;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    caret-color: white;
+}
+
+.container .heading{
+    margin: 20px 0px 20px 0px;
+    font-size: 3em;
+}
+
+.container button{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .buttons #btn-save{
+    padding: 10px;
+    background: green;
+    width: 150px;
+}
+
+.container .buttons #btn-clear{
+    padding: 10px;
+    background: red;
+    margin-left: 10px;
+    width: 150px;
+}
